@@ -47,7 +47,7 @@ let package = Package(
     dependencies: [
         .package(name: "Alamofire",
                   url: "https://github.com/Alamofire/Alamofire.git",
-                  Version(5,1,0)..<Version(6,0,0))
+                  Version(5,1,0)..<Version(5,4,4))
     ],
     targets: [
         .target(
